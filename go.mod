@@ -1,6 +1,6 @@
 module k8s.io/kube-state-metrics/v2
 
-go 1.19
+go 1.21
 
 require (
 	github.com/dgryski/go-jump v0.0.0-20211018200510-ba001c3ffce0
@@ -90,3 +90,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
+
+replace github.com/emicklei/go-restful/v3 => github.com/emicklei/go-restful/v3 v3.10.0
